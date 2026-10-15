@@ -1,0 +1,10 @@
+/vendor/
+/.phpunit.cache/
+/.phpunit.result.cache
+/composer.lock
+/.composer-install.log
+.DS_Store
+
+# Local sandbox credentials for gateway testing (never commit)
+.env.sandbox
+.env.publish

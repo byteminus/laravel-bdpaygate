@@ -36,6 +36,8 @@ jobs:
           coverage: none
       - name: Install dependencies
         run: |
+          # Every Laravel 11 release has known advisories now that it is end of life.
+          composer config audit.block-insecure false
           composer require "illuminate/contracts:${{ matrix.laravel }}" "orchestra/testbench:${{ matrix.testbench }}" --no-interaction --no-update
           composer update --prefer-dist --no-interaction --no-progress --with-all-dependencies
       - name: Run tests

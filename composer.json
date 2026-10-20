@@ -25,13 +25,18 @@
     ],
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/byteminus/laravel-bdpaygate",
+    "homepage": "https://bdpaygate.github.io",
     "authors": [
         {
             "name": "Mr Hawk",
             "role": "Maintainer"
         }
     ],
+    "support": {
+        "issues": "https://github.com/byteminus/laravel-bdpaygate/issues",
+        "source": "https://github.com/byteminus/laravel-bdpaygate",
+        "docs": "https://bdpaygate.github.io"
+    },
     "require": {
         "php": "^8.2",
         "ext-openssl": "*",

@@ -1,6 +1,8 @@
 # Changelog
 
-## Unreleased
+## v0.1.0 - 2026-10-20
+
+First release.
 
 ### Gateways
 - bKash Tokenized Checkout V2 (v1.2.0-beta still supported): refresh tokens, a guard against the 2-grants-per-hour lockout, callback signature check, execute-once, partial refunds (up to 10) and refund status, sync that recovers lost callbacks.
